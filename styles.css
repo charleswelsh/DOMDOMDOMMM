@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    background-color: black;
+    color: transparent;
+    height: 100px;
+    width: 100px;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+.square:hover {
+    color: white;
+}
